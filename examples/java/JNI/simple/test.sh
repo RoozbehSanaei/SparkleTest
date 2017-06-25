@@ -6,4 +6,4 @@ javac build/HelloJNI.java
 javah build/HelloJNI
 gcc -I $jni_path -I $jni_md_path HelloJNI.c -shared -o build/hello.so
 java build/HelloJNI
-rm -rf build
+#rm -rf build
