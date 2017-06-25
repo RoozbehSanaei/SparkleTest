@@ -1,6 +1,6 @@
 public class HelloJNI {
    static {
-      System.load("/home/roozbeh/SparkleShare/SparkleTest/examples/java/JNI/simple/hello.so"); // Load native library at runtime
+      System.load("/home/roozbeh/SparkleShare/SparkleTest/examples/java/JNI/simple/build/hello.so"); // Load native library at runtime
                                    // hello.dll (Windows) or libhello.so (Unixes)
    }
  
