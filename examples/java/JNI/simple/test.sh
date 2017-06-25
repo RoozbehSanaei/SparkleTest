@@ -1,4 +1,5 @@
 set -o xtrace
 mkdir build
 rmdir build
-gcc HelloJNI.c 
+jni_path=/usr/lib/jvm/java-8-oracle/include
+gcc -I $jni_path HelloJNI.c 
